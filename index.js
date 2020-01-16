@@ -5,7 +5,7 @@ document.querySelector('#btn2').addEventListener('click', e => automatico())
 // document.querySelector('#btn2').innerText = 'automatico'
 // document.querySelector('#btn1').innerText = 'manual'
 
-const endpoint = 'http://casanova-backend-staging.herokuapp.com/graphql'
+const endpoint = 'https://casanova-backend-staging.herokuapp.com/graphql'
 const graphQLClient = new GraphQLClient(endpoint, {
   headers: {
     authorization: 'JWT eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VybmFtZSI6Imx1Y0BnbWFpbC5jb20iLCJleHAiOjE1Nzg1MDE2ODAsIm9yaWdJYXQiOjE1Nzg0OTQ0ODB9.7yb7krK7HvvQf8RbwTJzuUTFF2btqTfzjzGjpFmssuo',
